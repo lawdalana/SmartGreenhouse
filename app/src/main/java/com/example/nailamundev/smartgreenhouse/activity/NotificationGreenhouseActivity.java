@@ -50,7 +50,7 @@ public class NotificationGreenhouseActivity extends AppCompatActivity {
             finish();
             return true;
         }
-
+        Log.d("GreenhousesItemDao", item);
         return super.onOptionsItemSelected(item);
     }
 
